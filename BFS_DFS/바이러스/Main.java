@@ -1,6 +1,6 @@
 // 바이러스
 // https://www.acmicpc.net/problem/2606
-package BFS_DFS;
+package BFS_DFS.바이러스;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 // DFS 사용
 // 감염된 컴퓨터의 수 계산
-public class P2606 {
+public class Main {
     static int node;  // 컴퓨터 수
     static int line; // 직접 연결 컴퓨터수 
     static int[][] arr;  // 연결 컴퓨터 쌍 저장 배열 

@@ -1,10 +1,11 @@
 // https://www.acmicpc.net/problem/10828
-package Data_Structure;
+package Data_Structure.스택;
+//
 
 import java.io.*;
 import java.util.*;
 
-public class P10828 {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine()); // 14
